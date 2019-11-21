@@ -17,7 +17,7 @@ def directors_totals(nds)
    puts director[:name]
   
     director[:movies].each { |movie_info|
-      total =+ movie_info[:worldwide_gross]
+      total += movie_info[:worldwide_gross]
       puts movie_info[:title]
       puts movie_info[:worldwide_gross]
       #pp director[:name]
