@@ -16,7 +16,7 @@ def directors_totals(nds)
     puts director[:movies]
     director[:movies].each { |director_info|
       #hash = { direc
-      #puts director_info[:w]
+      puts director_info[:worldwide_gross]
       
     }
   }
