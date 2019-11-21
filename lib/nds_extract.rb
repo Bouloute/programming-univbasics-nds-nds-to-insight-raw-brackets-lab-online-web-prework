@@ -22,7 +22,7 @@ def directors_totals(nds)
     }
     hash = { director[:name] => total}
   }
-  
+    pp hash
   
   result = {
     
