@@ -21,7 +21,7 @@ def directors_totals(nds)
       #puts movie_info[:worldwide_gross]
       #pp director[:name]
     }
-    hash = { director[:name] => total}
+    hash[director[:name] = total
   #  puts total
    # puts total
    # puts "\n\n"
