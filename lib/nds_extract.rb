@@ -25,7 +25,8 @@ def directors_totals(nds)
     
     hash[director[:name]]= total
   #  puts total
-   # puts total
+    puts "_______"
+    puts total
     puts "\n"
   }
    # pp hash
