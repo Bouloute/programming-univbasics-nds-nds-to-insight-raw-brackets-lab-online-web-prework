@@ -12,9 +12,10 @@ def directors_totals(nds)
   hash = {}
   nds.each { |director, value| 
     hash = { director[:name] => 0}
+    puts director
     director.each { |director_info|
       #hash = { direc
-      puts director_info#[:title]
+      #puts director_info#[:title]
       #director.each {|key, value| puts "key: "  + key + "    value :" + value}
       
     }
