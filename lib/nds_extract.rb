@@ -14,15 +14,17 @@ def directors_totals(nds)
   #pp nds[0]
   nds.each { |director, value| 
   total = 0
-   # puts director[:movies]
+  # puts director[:movies]
+  
     director[:movies].each { |movie_info|
       total =+ movie_info[:worldwide_gross]
       #puts movie_info[:worldwide_gross]
       
     }
     hash = { director[:name] => total}
+    pp director[:name]
   }
-    pp hash
+  #  pp hash
   
   result = {
     
