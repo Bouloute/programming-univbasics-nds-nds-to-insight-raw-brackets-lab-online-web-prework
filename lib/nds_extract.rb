@@ -22,7 +22,7 @@ def directors_totals(nds)
       #pp director[:name]
     }
     hash = { director[:name] => total}
-    puts director[:name]
+    puts director[:name] + " " + total
    # puts total
    # puts "\n\n"
   }
