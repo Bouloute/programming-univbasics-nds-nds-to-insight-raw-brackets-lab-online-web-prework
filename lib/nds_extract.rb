@@ -17,7 +17,6 @@ def directors_totals(nds)
     director[:movies].each { |director_info|
       #hash = { direc
       #puts director_info[:w]
-      #director.each {|key, value| puts "key: "  + key + "    value :" + value}
       
     }
   }
