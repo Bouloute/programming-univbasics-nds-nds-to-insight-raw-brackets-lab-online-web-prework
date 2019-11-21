@@ -26,7 +26,7 @@ def directors_totals(nds)
    # puts total
    # puts "\n\n"
   }
-  #  pp hash
+    pp hash
   
   result = {
     
