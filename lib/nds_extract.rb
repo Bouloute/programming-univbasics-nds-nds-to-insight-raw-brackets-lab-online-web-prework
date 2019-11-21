@@ -8,9 +8,9 @@ def directors_totals(nds)
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   
-  #pp nds
+  pp nds
    
-  nds.each { |key, value| pp key }
+ # nds.each { |key, value|  key }
   
   
   result = {
