@@ -12,8 +12,8 @@ def directors_totals(nds)
   hash = {}
   nds.each { |key, value| 
     key.each { |director, info|
-     hash
-      pp info
+     #hash = { direc
+      pp director
     }
   }
   
